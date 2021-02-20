@@ -15,8 +15,14 @@ public class Main {
 //	
 		
 		
-		ShiftingZeros obj2 = new ShiftingZeros();
-		obj2.shiftZeros2();
+//		ShiftingZeros obj2 = new ShiftingZeros();
+//		obj2.shiftZeros2();
+		
+		
+		DuplicateValueArray obj3 = new DuplicateValueArray();
+		
+		boolean duplicates = obj3.duplicates();
+		System.out.println(duplicates);
 
 	}
 
