@@ -18,12 +18,21 @@ public class Main {
 //		ShiftingZeros obj2 = new ShiftingZeros();
 //		obj2.shiftZeros2();
 		
-		
-		DuplicateValueArray obj3 = new DuplicateValueArray();
-		
-		boolean duplicates = obj3.duplicates();
-		System.out.println(duplicates);
+//		
+//		DuplicateValueArray obj3 = new DuplicateValueArray();
+//		
+//		boolean duplicates = obj3.duplicates();
+//		System.out.println(duplicates);
 
+		
+		PalindromeNum  obj4 = new PalindromeNum();
+		System.out.println(obj4.isPalindrome(121));
+		System.out.println(obj4.isPalindrome(-101));
+		System.out.println(obj4.isPalindrome(0));
+		System.out.println(obj4.isPalindrome(421));
+		
+		
+		
 	}
 
 }

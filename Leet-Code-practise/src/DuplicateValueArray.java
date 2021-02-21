@@ -6,7 +6,7 @@ public class DuplicateValueArray {
 	
 	public boolean duplicates()
 	{
-		int array[] = {1,1,1,3,3,4,3,2,4,2};
+		int array[] = {1,2,3,4};
 		
 		HashMap<Integer,Boolean> hmap = new HashMap<Integer, Boolean>();
 		
