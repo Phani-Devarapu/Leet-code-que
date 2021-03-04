@@ -25,11 +25,14 @@ public class Main {
 //		System.out.println(duplicates);
 
 		
-		PalindromeNum  obj4 = new PalindromeNum();
-		System.out.println(obj4.isPalindrome(121));
-		System.out.println(obj4.isPalindrome(-101));
-		System.out.println(obj4.isPalindrome(0));
-		System.out.println(obj4.isPalindrome(421));
+//		PalindromeNum  obj4 = new PalindromeNum();
+//		System.out.println(obj4.isPalindrome(121));
+//		System.out.println(obj4.isPalindrome(-101));
+//		System.out.println(obj4.isPalindrome(0));
+//		System.out.println(obj4.isPalindrome(421));
+		
+		MaximumSubArray maxsub = new MaximumSubArray();
+		maxsub.subarray();
 		
 		
 		
