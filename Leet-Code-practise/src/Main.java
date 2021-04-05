@@ -10,7 +10,7 @@ public class Main {
 		
 //		ReverseInteger obj1 = new ReverseInteger();
 //		obj1.reverseInt2(456);
-//		obj1.reverseInt2(-694);
+//		obj1.reverseInt2(-694);	
 //		obj1.reverseInt2(0);
 //	
 		
@@ -31,8 +31,18 @@ public class Main {
 //		System.out.println(obj4.isPalindrome(0));
 //		System.out.println(obj4.isPalindrome(421));
 		
-		MaximumSubArray maxsub = new MaximumSubArray();
-		maxsub.subarray();
+//		MaximumSubArray maxsub = new MaximumSubArray();
+//		maxsub.subarray();
+		
+		//ArrayRotation arayRot = new ArrayRotation();
+		//arayRot.arrayRotaionWitnin(3);
+		
+		//arayRot.checking();
+		
+		
+		FindtheMissingNumArray fmn = new FindtheMissingNumArray();
+		
+		fmn.missingNum();
 		
 		
 		
