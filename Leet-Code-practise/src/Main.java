@@ -40,9 +40,35 @@ public class Main {
 		//arayRot.checking();
 		
 		
-		FindtheMissingNumArray fmn = new FindtheMissingNumArray();
+//		FindtheMissingNumArray fmn = new FindtheMissingNumArray();
+//		
+//		fmn.missingNum();
+//		
 		
-		fmn.missingNum();
+//		LongestPalindromicSubString longPaSS = new LongestPalindromicSubString();
+//		
+//		//longPaSS.palin();
+//		
+//		String s ="asdbcsscbase";
+//		
+//		String palinDronmeMeth2 = longPaSS.PalinDronmeMeth2(s);
+//		System.out.println(palinDronmeMeth2);
+		
+		
+//		MakingAnagrams mankingAna = new MakingAnagrams();
+//		mankingAna.anagrams("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke");
+		
+		
+//		AlternatingCharacters alterChar = new AlternatingCharacters();
+//		alterChar.alternationg("ABABABAB");
+		
+//		BalancedString blanStr  = new BalancedString();
+//		boolean balanced = blanStr.isBalanced("[{()}()]");
+//		System.out.println(balanced);
+		
+		SherlockandAnagram  sherAns = new SherlockandAnagram();
+		int sherAndAnagram = sherAns.sherAndAnagram("mom");
+		System.out.println(sherAndAnagram);
 		
 		
 		
