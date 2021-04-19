@@ -34,8 +34,8 @@ public class Main {
 //		MaximumSubArray maxsub = new MaximumSubArray();
 //		maxsub.subarray();
 		
-		//ArrayRotation arayRot = new ArrayRotation();
-		//arayRot.arrayRotaionWitnin(3);
+		ArrayRotation arayRot = new ArrayRotation();
+		arayRot.arrayRotation(2);
 		
 		//arayRot.checking();
 		
@@ -66,10 +66,10 @@ public class Main {
 //		boolean balanced = blanStr.isBalanced("[{()}()]");
 //		System.out.println(balanced);
 		
-		SherlockandAnagram  sherAns = new SherlockandAnagram();
-		int sherAndAnagram = sherAns.sherAndAnagram("mom");
-		System.out.println(sherAndAnagram);
-		
+//		SherlockandAnagram  sherAns = new SherlockandAnagram();
+//		int sherAndAnagram = sherAns.sherAndAnagram("ifailuhkqq");
+//		System.out.println(sherAndAnagram);
+//		
 		
 		
 	}

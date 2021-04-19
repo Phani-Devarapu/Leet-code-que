@@ -5,6 +5,7 @@ public class SherlockandAnagram {
 	
 	int count =0;
 	
+	
 	ArrayList hmapList = new ArrayList();
 	
 	public int  sherAndAnagram( String input)
@@ -13,22 +14,31 @@ public class SherlockandAnagram {
 		{
 			for(int j=0;j<input.length();j++)
 			{
-				String sub = input.substring(i,j+1);
-				wordCount(sub);
+				if((j+1)>i)
+				{
+					String sub = input.substring(i,j+1);
+					
+
+					if(!(sub.length()==input.length())) wordCount(sub);
+				}
+				
+				
+				
 			}
 		}
 		
-		System.out.println(hmapList.size());
-		
 		for(int j=0;j<hmapList.size();j++)
 		{
-			if((j+1)<hmapList.size())
+			for(int k=j+1;k<hmapList.size();k++)
 			{
-				if(hmapList.get(j).equals(hmapList.get(j+1)))
+				if((j+1)<hmapList.size())
 				{
-					count++;
+					if(hmapList.get(j).equals(hmapList.get(k)))
+					{
+						count++;
+					}
+					
 				}
-				
 			}
 		}
 		
@@ -52,11 +62,7 @@ public class SherlockandAnagram {
 			}
 		}
 		
-		for(Character ch : hmap.keySet())
-		{
-			System.out.println(ch + " " + hmap.get(ch));
-		}
-		
+
 		hmapList.add(hmap);
 	}
 
